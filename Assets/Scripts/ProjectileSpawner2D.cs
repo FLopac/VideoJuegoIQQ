@@ -4,9 +4,9 @@ using UnityEngine;
 public class ProjectileSpawner2D : MonoBehaviour
 {
     [SerializeField] private Projectile2D projectilePrefab;
-    [SerializeField] private float secondsBetweenShots = 2f;
-    [SerializeField] private float projectileSpeed = 4f;
-    [SerializeField] private Vector2 direction = Vector2.left;
+    [SerializeField] private float secondsBetweenShots = 1.8f;
+    [SerializeField] private float projectileSpeed = 6f;
+    [SerializeField] private Vector2 direction = Vector2.down;
 
     private IEnumerator Start()
     {
